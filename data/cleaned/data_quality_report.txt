@@ -1,0 +1,43 @@
+DATA QUALITY REPORT
+--------------------------------------------------
+Dataset shape: (50000, 8)
+
+Expected columns:
+['tweet_id', 'author_id', 'inbound', 'created_at', 'text', 'response_tweet_id', 'in_response_to_tweet_id', 'clean_text']
+
+Actual columns:
+['tweet_id', 'author_id', 'inbound', 'created_at', 'text', 'response_tweet_id', 'in_response_to_tweet_id', 'clean_text']
+
+All expected columns are present.
+
+Data Types:
+ - tweet_id: Expected int64 | Actual int64
+ - author_id: Expected object | Actual object
+ - inbound: Expected bool | Actual bool
+ - created_at: Expected object | Actual object
+ - text: Expected object | Actual object
+ - response_tweet_id: Expected object | Actual object
+ - in_response_to_tweet_id: Expected float64 | Actual float64
+ - clean_text: Expected object | Actual object
+Missing Values per Column:
+ - tweet_id: 0
+ - author_id: 0
+ - inbound: 0
+ - created_at: 0
+ - text: 0
+ - response_tweet_id: 18484
+ - in_response_to_tweet_id: 14131
+ - clean_text: 513
+Total duplicate rows: 0
+
+Created_at Date Conversion Check:
+ - All date values successfully converted.
+Text Column Integrity:
+ - All entries in 'text' column are non-empty.
+Sample Data (first 5 rows):
+   tweet_id     author_id  inbound                      created_at                                                                                                                                                                                           text response_tweet_id  in_response_to_tweet_id                                                                          clean_text      created_at_converted
+0    192624        161253     True  Wed Oct 04 13:59:33 +0000 2017                                                                                                                                              @161252 What's that egg website people talk about            192623                 192625.0                                                       whats egg website people talk 2017-10-04 13:59:33+00:00
+1    738238        296574     True  Fri Oct 06 18:29:06 +0000 2017                                                                                                                                         Why!🤷🏻‍♀️ #iOS11 @AppleSupport https://t.co/BXrVfeIXxq            738237                      NaN                                                                            why🤷🏻‍♀️ 2017-10-06 18:29:06+00:00
+2   2414302  AppleSupport    False  Tue Nov 14 17:38:01 +0000 2017  @693975 We can assist you. We recommend updating to iOS 11.1.1 if you haven't had the chance to do so. You can also DM us with the following link for futher support. https://t.co/GDrqU22YpT           2414303                2414304.0  assist recommend updating io havent chance also dm u following link futher support 2017-11-14 17:38:01+00:00
+3   1793929        539096     True  Thu Oct 12 06:04:41 +0000 2017                                                                                                     @331912 @115955 Thats better than having an unstable connection that drops every 5-20 mins           1793928                1793930.0                                     thats better unstable connection drop every min 2017-10-12 06:04:41+00:00
+4   2088018        617376     True  Mon Nov 06 20:30:49 +0000 2017                                                                                                                     @VirginAmerica is probably one of the best airlines I've ever experienced.           2088017                      NaN                                      probably one best airline ive ever experienced 2017-11-06 20:30:49+00:00

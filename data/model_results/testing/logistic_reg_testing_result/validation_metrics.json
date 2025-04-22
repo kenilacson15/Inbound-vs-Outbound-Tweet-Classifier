@@ -1,0 +1,8 @@
+{
+    "accuracy": 0.882,
+    "precision_inbound_1": 0.889090909090909,
+    "recall_inbound_1": 0.8956043956043956,
+    "f1_score_inbound_1": 0.8923357664233577,
+    "roc_auc": 0.9482752013038357,
+    "training_time_seconds": 400.8252251148224
+}

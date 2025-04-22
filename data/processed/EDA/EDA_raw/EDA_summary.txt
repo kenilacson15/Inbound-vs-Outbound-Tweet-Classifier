@@ -1,0 +1,50 @@
+### Basic Dataset Information ###
+
+Shape: (50000, 7)
+
+
+Columns and Data Types:
+
+tweet_id                     int64
+author_id                   object
+inbound                       bool
+created_at                  object
+text                        object
+response_tweet_id           object
+in_response_to_tweet_id    float64
+
+
+
+Missing Values:
+
+tweet_id                       0
+author_id                      0
+inbound                        0
+created_at                     0
+text                           0
+response_tweet_id          18484
+in_response_to_tweet_id    14131
+
+
+
+Descriptive Statistics (Numeric):
+
+           tweet_id  in_response_to_tweet_id
+count  5.000000e+04             3.586900e+04
+mean   1.507190e+06             1.466572e+06
+std    8.601904e+05             8.627947e+05
+min    1.620000e+02             1.630000e+02
+25%    7.684808e+05             7.288670e+05
+50%    1.508696e+06             1.444113e+06
+75%    2.249166e+06             2.213906e+06
+max    2.987924e+06             2.987861e+06
+
+
+
+Descriptive Statistics (Non-Numeric):
+
+         author_id                      created_at             text response_tweet_id
+count        50000                           50000            50000             31516
+unique       26395                           49675            49909             31516
+top     AmazonHelp  Fri Nov 03 10:36:00 +0000 2017  @AirAsiaSupport     368558,368561
+freq          2955                               3                6                 1

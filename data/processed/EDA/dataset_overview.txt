@@ -1,0 +1,28 @@
+Dataset Head:
+   tweet_id     author_id  inbound                      created_at                                                                                                                                                                                           text response_tweet_id  in_response_to_tweet_id                                                                          clean_text
+0    192624        161253     True  Wed Oct 04 13:59:33 +0000 2017                                                                                                                                              @161252 What's that egg website people talk about            192623                 192625.0                                                       whats egg website people talk
+1    738238        296574     True  Fri Oct 06 18:29:06 +0000 2017                                                                                                                                         Why!🤷🏻‍♀️ #iOS11 @AppleSupport https://t.co/BXrVfeIXxq            738237                      NaN                                                                            why🤷🏻‍♀️
+2   2414302  AppleSupport    False  Tue Nov 14 17:38:01 +0000 2017  @693975 We can assist you. We recommend updating to iOS 11.1.1 if you haven't had the chance to do so. You can also DM us with the following link for futher support. https://t.co/GDrqU22YpT           2414303                2414304.0  assist recommend updating io havent chance also dm u following link futher support
+3   1793929        539096     True  Thu Oct 12 06:04:41 +0000 2017                                                                                                     @331912 @115955 Thats better than having an unstable connection that drops every 5-20 mins           1793928                1793930.0                                     thats better unstable connection drop every min
+4   2088018        617376     True  Mon Nov 06 20:30:49 +0000 2017                                                                                                                     @VirginAmerica is probably one of the best airlines I've ever experienced.           2088017                      NaN                                      probably one best airline ive ever experienced
+
+Missing Values Per Column:
+tweet_id                       0
+author_id                      0
+inbound                        0
+created_at                     0
+text                           0
+response_tweet_id          18484
+in_response_to_tweet_id    14131
+clean_text                   513
+
+Summary Statistics for Numerical Columns:
+           tweet_id  in_response_to_tweet_id
+count  5.000000e+04             3.586900e+04
+mean   1.507190e+06             1.466572e+06
+std    8.601904e+05             8.627947e+05
+min    1.620000e+02             1.630000e+02
+25%    7.684808e+05             7.288670e+05
+50%    1.508696e+06             1.444113e+06
+75%    2.249166e+06             2.213906e+06
+max    2.987924e+06             2.987861e+06

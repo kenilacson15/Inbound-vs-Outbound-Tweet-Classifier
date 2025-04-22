@@ -1,0 +1,10 @@
+Missing Values Report:
+User ID         0
+Product ID      0
+Product Name    0
+Brand           0
+Category        0
+Price           0
+Rating          0
+Color           0
+Size            0

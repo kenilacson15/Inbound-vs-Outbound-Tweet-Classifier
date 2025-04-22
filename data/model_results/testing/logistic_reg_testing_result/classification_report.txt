@@ -1,0 +1,23 @@
+Validation Set Evaluation Metrics (Positive Class: Inbound=1)
+===========================================================
+Accuracy: 0.8820
+Precision Inbound 1: 0.8891
+Recall Inbound 1: 0.8956
+F1 Score Inbound 1: 0.8923
+Roc Auc: 0.9483
+Training Time Seconds: 400.8252
+
+Confusion Matrix:
+[[786 122]
+ [114 978]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Outbound (0)       0.87      0.87      0.87       908
+ Inbound (1)       0.89      0.90      0.89      1092
+
+    accuracy                           0.88      2000
+   macro avg       0.88      0.88      0.88      2000
+weighted avg       0.88      0.88      0.88      2000
+
