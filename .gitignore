@@ -1,0 +1,9 @@
+# Ignore the specific large file
+data/raw/customer-support/twcs/twcs.csv
+
+# Optionally, ignore the entire directory where the large file is located
+data/raw/customer-support/twcs/
+
+
+data/processed/twcs_1M.csv
+
